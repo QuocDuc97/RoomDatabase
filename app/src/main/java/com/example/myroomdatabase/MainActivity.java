@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 listMain.addAll(roomDB.mainDao().getAllData());
                 //thoong bao thay doi
                 mainAdapter.notifyDataSetChanged();
+                //helelo
             }
         });
 
