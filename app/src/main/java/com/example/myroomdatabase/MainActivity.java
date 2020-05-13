@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 roomDB.mainDao().reset(listMain);
                 listMain.clear();
                 listMain.addAll(roomDB.mainDao().getAllData());
+                //thoong bao thay doi
                 mainAdapter.notifyDataSetChanged();
             }
         });
