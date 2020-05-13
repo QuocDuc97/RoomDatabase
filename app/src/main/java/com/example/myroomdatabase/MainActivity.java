@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //set up reset click
         btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
