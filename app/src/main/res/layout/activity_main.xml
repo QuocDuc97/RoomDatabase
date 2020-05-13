@@ -36,10 +36,10 @@
             android:text="Reset"
             android:id="@+id/btnReset"/>
     </LinearLayout>
-
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/listItem"/>
-
+        android:layout_marginTop="8dp"
+        android:id="@+id/recycle_View"
+        tools:listitem="@layout/list_row_item"/>
 </LinearLayout>
