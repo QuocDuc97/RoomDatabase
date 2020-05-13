@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 //thoong bao thay doi
                 mainAdapter.notifyDataSetChanged();
                 //helelo
+                //hello
             }
         });
 
