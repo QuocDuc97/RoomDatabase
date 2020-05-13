@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //goij hamf del
                 roomDB.mainDao().reset(listMain);
                 listMain.clear();
                 listMain.addAll(roomDB.mainDao().getAllData());
