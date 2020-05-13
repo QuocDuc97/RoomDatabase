@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button btnAdd, btnReset;
     List<MainData> listMain= new ArrayList<>();
+    //hello
     LinearLayoutManager linearLayoutManager;
     RoomBD roomDB;
     MainAdapter mainAdapter;
