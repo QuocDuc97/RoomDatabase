@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayoutManager linearLayoutManager;
     RoomBD roomDB;
     MainAdapter mainAdapter;
+    //initalize recycleview
     RecyclerView recyclerView;
 
     @Override
