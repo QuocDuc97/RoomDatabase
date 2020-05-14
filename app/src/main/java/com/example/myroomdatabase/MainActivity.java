@@ -16,7 +16,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     //initialize variable
+    //Todo initlize variable
     EditText editText;
+    //initalize variable button
     Button btnAdd, btnReset;
     List<MainData> listMain= new ArrayList<>();
     //hello
