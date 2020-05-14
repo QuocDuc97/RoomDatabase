@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     MainAdapter mainAdapter;
     //initalize recycleview
     RecyclerView recyclerView;
+    //String sql
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
