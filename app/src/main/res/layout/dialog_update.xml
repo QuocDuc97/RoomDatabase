@@ -9,7 +9,7 @@
         android:id="@+id/editTextN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background"
+        android:background="@drawable/edit_text"
         android:gravity="top"
         android:hint="Enter text:"
         android:lines="5"
@@ -19,5 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:background="@drawable/button_edit"
         android:text="Update"></Button>
 </LinearLayout>

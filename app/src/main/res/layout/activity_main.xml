@@ -14,27 +14,31 @@
         android:id="@+id/edTextInput"
         android:hint="Enter input text"
         android:padding="12dp"
-        android:background="@android:drawable/editbox_background"/>
-
+        android:background="@drawable/edit_text"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="8dp">
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Add"
-            android:id="@+id/btnAdd"/>
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/button_edit"
+            android:text="Add" />
+
         <Button
+            android:id="@+id/btnReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
             android:layout_weight="1"
-            android:text="Reset"
-            android:id="@+id/btnReset"/>
+            android:background="@drawable/btn_reset"
+            android:text="Reset" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
