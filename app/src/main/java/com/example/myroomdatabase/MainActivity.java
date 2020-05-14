@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     //hello
     LinearLayoutManager linearLayoutManager;
     RoomBD roomDB;
-    //thay dodoir moi
     MainAdapter mainAdapter;
     //initalize recycleview
     RecyclerView recyclerView;
