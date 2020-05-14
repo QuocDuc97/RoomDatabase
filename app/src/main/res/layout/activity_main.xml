@@ -19,7 +19,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <Button
@@ -43,7 +43,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/recycle_View"
         tools:listitem="@layout/list_row_item"/>
 </LinearLayout>
