@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     //initalize variable button
     Button btnAdd, btnReset;
+    //testgi
     List<MainData> listMain= new ArrayList<>();
     //hello
     LinearLayoutManager linearLayoutManager;
